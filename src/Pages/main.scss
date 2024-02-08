@@ -1,0 +1,25 @@
+// custom variables
+// $primary:#c29938;
+// $light:#fbf5e5;
+
+//import the function & variables
+@import"node_modules/bootstrap/scss/functions";
+@import"node_modules/bootstrap/scss/variables";
+
+$custom-theme-colors:(
+    "altlight":#f2ebfa,
+    "althide":#252525,
+    "altdark":#522192,
+    "bankg" : #00bf8f,
+    'golden':#FFD700,
+    "transfer" :#D0F0C0,
+    "bgbody" :#006A4E,
+    "Celadon" :#ACE1AF,
+
+
+);
+
+$theme-colors: map-merge($custom-theme-colors,$theme-colors);
+
+// import bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap.scss'

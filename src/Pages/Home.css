@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+.gradients{
+    background: -webkit-linear-gradient(#d0ff00, #FFD700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.code{
+    background-image: linear-gradient( 135deg, #136a8a 10%, #267871 80%);
+}
+.font{
+    font-family: 'Roboto', sans-serif;
+}
+.ff{
+    font-family: poppins sans-serif;
+}
